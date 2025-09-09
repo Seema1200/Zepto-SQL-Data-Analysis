@@ -40,7 +40,7 @@ This project was a huge learning experience for me. I got to practice:
 
 ## How to Look at My Project
 
-If you're technical, you can check out the main file: **[zepto_analysis.sql]**. I've added comments to explain what each part does.
+If you're technical, you can check out the main file: [zepto_analysis.sql](zepto_analysis.sql).
 
 Even if you're not technical, I hope this shows you how I think through a problem and my excitement for learning new skills!
 
