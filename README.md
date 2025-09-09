@@ -1,62 +1,62 @@
-📊 Zepto SQL Data Analysis Project
-📌 Introduction
+# Zepto Data Analysis: My First SQL Project 🎉
 
-This project showcases SQL data analysis on a retail delivery dataset (Zepto-like use case).
-The goal is to demonstrate data cleaning, querying, and insight generation using SQL.
+Hey there! 👋 Welcome to my first end-to-end data analysis project. I'm really excited to share this with you.
 
-This project is designed as a portfolio piece for Data Analyst roles — highlighting SQL proficiency and ability to solve real-world business problems.
+I built this project to practice my **SQL skills** and see if I could find interesting stories hidden inside a real-looking dataset from **Zepto**, a quick grocery delivery app.
 
-📂 Dataset Information
+## What I Did (In Simple Terms!)
 
-Dataset is inspired by Zepto (quick commerce delivery).
+I pretended I was a data analyst at Zepto. My job was to look at all their product information and answer questions that could help the business. Here's how I did it, step by step:
 
-Includes:
+1.  **I Set Up My Database:** I created a table to hold all the product information like name, price, category, and whether it was in stock.
 
-Customers
+2.  **I Explored the Data:** Before I could answer any big questions, I had to understand what I was working with. I asked simple questions like:
+    *   "How many products are there?"
+    *   "Are there any missing details?"
+    *   "What different categories do we have?"
 
-Orders
+3.  **I Cleaned the Data:** I found a few problems! Some products had a price of ₹0, which didn't make sense. I also noticed the prices were in paise (1 Rupee = 100 Paise), so I converted everything to rupees to make it easier to read.
 
-Products
+4.  **I Asked Bigger Questions:** This was the fun part! I used SQL queries to find answers to questions I was curious about, like:
+    *   "What are the most heavily discounted items?"
+    *   "Are we missing out on money because expensive items are out of stock?"
+    *   "Which category makes the most money?"
+    *   "Which products give you the most for your money by weight?"
 
-Sales & Revenue
+## What I Learned
 
-Delivery details
+This project was a huge learning experience for me. I got to practice:
 
-(If dataset is simulated, mention “mock dataset inspired by Zepto operations”)
+*   **SQL Fundamentals:** `SELECT`, `FROM`, `WHERE`, `ORDER BY`, `GROUP BY`
+*   **Data Cleaning:** How to find and fix messy data.
+*   **Basic Analysis:** Using `SUM`, `AVG`, and `COUNT` to understand data.
+*   **Thinking Like an Analyst:** It's not just about writing code; it's about asking good questions.
 
-🛠 SQL Concepts Used
+## A Few Interesting Things I Found
 
-✔ Filtering with WHERE
-✔ Sorting with ORDER BY
-✔ Aggregate functions: SUM(), COUNT(), AVG()
-✔ Grouping: GROUP BY, HAVING
-✔ Joins: INNER JOIN, LEFT JOIN
-✔ Subqueries
-✔ Window Functions (ROW_NUMBER(), RANK())
-✔ Date/Time functions
+*   I found the top 10 products with the biggest discounts. These would be great for a "Weekly Deals" section!
+*   I discovered some expensive items that were out of stock. This means Zepto might be losing sales on these products.
+*   I figured out how much the entire inventory weighs, which could help with planning delivery logistics.
 
-📈 Key Business Questions Answered
+## How to Look at My Project
 
-Some examples of queries included in this project:
+If you're technical, you can check out the main file: **[zepto_analysis.sql](scripts/zepto_analysis.sql)**. I've added comments to explain what each part does.
 
-Find top 5 cities with maximum orders.
+Even if you're not technical, I hope this shows you how I think through a problem and my excitement for learning new skills!
 
-Identify highest revenue-generating products.
+---
 
-Calculate monthly revenue trends.
+### About Me
 
-Determine most frequent customers.
+I'm just starting my journey in data analysis. I'm curious, I love solving puzzles, and I'm really enjoying learning how to find stories in data.
 
-Analyze average delivery time per city.
+I'm looking for opportunities to learn and grow as a junior data analyst.
 
-Compare order counts before/after discounts.
+**Let's connect!**
+*   [My LinkedIn Profile](https://www.linkedin.com/in/seema-kumari-375763308/)
+*   [My GitHub Profile](https://github.com/Seema1200)
 
-🚀 Insights Gained
+---
 
-Tier-1 cities contribute the highest share of revenue.
+*Note: This is a portfolio project. I used a simulated dataset to practice my skills and is not affiliated with the actual Zepto company.*
 
-Certain SKUs drive majority of repeat sales.
-
-Delivery time optimization can improve customer retention.
-
-Discounts significantly influence sales volume.
