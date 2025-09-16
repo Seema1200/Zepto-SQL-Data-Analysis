@@ -1,111 +1,115 @@
 📦 Zepto Data Analysis: My First SQL Project 🎉
 
-Hi there! 👋
-Welcome to my first end-to-end data analysis project using SQL.
-I built this project to practice my SQL skills and uncover meaningful insights from a realistic dataset inspired by Zepto, a quick grocery delivery platform.
 
-📝 Project Overview
+
+
+
+
+📋 Table of Contents
+
+📖 About the Project
+
+⚙️ Steps I Followed
+
+📊 Key Insights
+
+💡 What I Learned
+
+📁 Files in This Repo
+
+👩‍💻 About Me
+
+📖 About the Project
+
+Hi there! 👋
+Welcome to my first end-to-end SQL Data Analysis Project using a realistic dataset inspired by Zepto, a quick grocery delivery platform.
 
 Objective:
-To extract actionable business insights from Zepto product data using SQL, helping understand product trends, pricing strategies, and inventory patterns.
+To extract actionable business insights from product data using SQL, helping understand product trends, pricing strategies, and inventory patterns.
 
 Dataset Columns:
+sku_id, category, name, mrp, quantity,
+discountPercent, availableQuantity, discountedSellingPrice,
+weightInGms, outOfStock
 
-sku_id (Primary Key)
+📄 Project Presentation:
+📁 View Zepto_Business_Insights.pdf
 
-category
+⚙️ Steps I Followed
+🗄️ 1. Data Setup
 
-name
+Created a SQL table to store product information (name, price, category, weight, etc.)
 
-mrp
+🔍 2. Data Exploration
 
-quantity
-
-discountPercent
-
-availableQuantity
-
-discountedSellingPrice
-
-weightInGms
-
-outOfStock
-
-📄 Presentation of Results:
-Zepto_Business_Insights.pdf
-
-⚙️ What I Did (Step by Step)
-
-Set Up the Database
-
-Created a SQL table to hold product data (name, price, category, quantity, weight, etc.)
-
-Data Exploration
-
-Understood data structure
-
-Checked for missing or duplicate values
+Understood structure, checked missing or duplicate values
 
 Counted products by category
 
-Data Cleaning
+🧹 3. Data Cleaning
 
-Removed products with invalid MRP (₹0)
+Removed products with MRP = 0
 
 Converted prices from paise to rupees
 
-Handled NULLs and duplicate entries
+Removed duplicates and handled NULL values
 
-Analysis with SQL Queries
+📈 4. Analysis using SQL Queries
 
 Top 10 best-value products (highest discounts)
 
-Products with high MRP but out of stock
+High MRP but out-of-stock products
 
 Revenue estimation by category
 
 Categories with highest average discount
 
-Price per gram comparison for products >100g
+Price per gram comparison
 
-Weight categorization (Low / Medium / Bulk)
+Grouped products by weight (Low/Medium/Bulk)
 
-Total inventory weight by category
+Calculated total inventory weight by category
 
 📁 Main SQL Script:
-zepto_analysis.sql
+📄 View zepto_analysis.sql
 
 📊 Key Insights
 
-🛒 Discount Patterns:
-Fruits & Vegetables and Meats, Fish & Eggs get higher discounts due to perishability, while premium essentials maintain low discounts to protect margins.
+🛒 Discount Strategy:
+Fruits & Vegetables and Meats, Fish & Eggs get higher discounts due to perishability, while premium essentials keep lower discounts to protect margins.
 
 💰 Revenue Trends:
-Cooking Essentials, Munchies, and Personal Care bring in the highest estimated revenue, while fresh items contribute the least.
+Cooking Essentials, Munchies, and Personal Care generate the highest estimated revenue; fresh items contribute the least.
 
 ⚖️ Inventory Weight:
-Cooking Essentials and Munchies dominate total inventory weight, while Meats, Fish & Eggs are lightest — important for storage planning.
+Cooking Essentials and Munchies dominate stock weight, while Meats, Fish & Eggs are lightest — useful for planning storage and logistics.
 
 ⚡ Best Value:
-Staple items like salt and onions have the lowest price per gram, making them the most cost-effective for customers.
+Staple items like salt and onions have the lowest price per gram, making them highly cost-effective for customers.
 
-📦 Weight Categorization:
+📦 Weight Categories:
 Most products are light (<1000g), making them easier and faster to deliver.
 
 💡 What I Learned
 
 Writing SQL queries (SELECT, WHERE, GROUP BY, ORDER BY, CASE, JOIN)
 
-Cleaning and preparing real-world-like data
+Cleaning and preparing real-world-like datasets
 
 Performing basic data analysis using SUM, AVG, COUNT
 
-Thinking like an analyst — not just querying, but asking impactful business questions
+Thinking like an analyst — asking impactful business questions and presenting answers visually
 
+📁 Files in This Repo
+File	Description
+zepto_analysis.sql
+	Main SQL script with all queries
+Zepto_Business_Insights.pdf
+	Visual presentation of all insights
 👩‍💻 About Me
 
 Hi, I’m Seema Kumari — an aspiring Data Analyst who loves solving puzzles and discovering stories hidden in data.
-I’m looking for opportunities to learn and grow as a junior data analyst.
+I’m looking for opportunities to learn, grow, and contribute as a junior data analyst.
 
 📧 Email: seemakri136@gmail.com
 
