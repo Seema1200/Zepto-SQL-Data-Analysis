@@ -1,62 +1,117 @@
-# Zepto Data Analysis: My First SQL Project 🎉
+📦 Zepto Data Analysis: My First SQL Project 🎉
 
-Hey there! 👋 Welcome to my first end-to-end data analysis project. I'm really excited to share this with you.
+Hi there! 👋
+Welcome to my first end-to-end data analysis project using SQL.
+I built this project to practice my SQL skills and uncover meaningful insights from a realistic dataset inspired by Zepto, a quick grocery delivery platform.
 
-I built this project to practice my **SQL skills** and see if I could find interesting stories hidden inside a real-looking dataset from **Zepto**, a quick grocery delivery app.
+📝 Project Overview
 
-## What I Did (In Simple Terms!)
+Objective:
+To extract actionable business insights from Zepto product data using SQL, helping understand product trends, pricing strategies, and inventory patterns.
 
-I pretended I was a data analyst at Zepto. My job was to look at all their product information and answer questions that could help the business. Here's how I did it, step by step:
+Dataset Columns:
 
-1.  **I Set Up My Database:** I created a table to hold all the product information like name, price, category, and whether it was in stock.
+sku_id (Primary Key)
 
-2.  **I Explored the Data:** Before I could answer any big questions, I had to understand what I was working with. I asked simple questions like:
-    *   "How many products are there?"
-    *   "Are there any missing details?"
-    *   "What different categories do we have?"
+category
 
-3.  **I Cleaned the Data:** I found a few problems! Some products had a price of ₹0, which didn't make sense. I also noticed the prices were in paise (1 Rupee = 100 Paise), so I converted everything to rupees to make it easier to read.
+name
 
-4.  **I Asked Bigger Questions:** This was the fun part! I used SQL queries to find answers to questions I was curious about, like:
-    *   "What are the most heavily discounted items?"
-    *   "Are we missing out on money because expensive items are out of stock?"
-    *   "Which category makes the most money?"
-    *   "Which products give you the most for your money by weight?"
+mrp
 
-## What I Learned
+quantity
 
-This project was a huge learning experience for me. I got to practice:
+discountPercent
 
-*   **SQL Fundamentals:** `SELECT`, `FROM`, `WHERE`, `ORDER BY`, `GROUP BY`
-*   **Data Cleaning:** How to find and fix messy data.
-*   **Basic Analysis:** Using `SUM`, `AVG`, and `COUNT` to understand data.
-*   **Thinking Like an Analyst:** It's not just about writing code; it's about asking good questions.
+availableQuantity
 
-## A Few Interesting Things I Found
+discountedSellingPrice
 
-*   I found the top 10 products with the biggest discounts. These would be great for a "Weekly Deals" section!
-*   I discovered some expensive items that were out of stock. This means Zepto might be losing sales on these products.
-*   I figured out how much the entire inventory weighs, which could help with planning delivery logistics.
+weightInGms
 
-## How to Look at My Project
+outOfStock
 
-If you're technical, you can check out the main file: [zepto_analysis.sql](zepto_analysis.sql).
+📄 Presentation of Results:
+Zepto_Business_Insights.pdf
 
-Even if you're not technical, I hope this shows you how I think through a problem and my excitement for learning new skills!
+⚙️ What I Did (Step by Step)
 
----
+Set Up the Database
 
-### About Me
+Created a SQL table to hold product data (name, price, category, quantity, weight, etc.)
 
-I'm just starting my journey in data analysis. I'm curious, I love solving puzzles, and I'm really enjoying learning how to find stories in data.
+Data Exploration
 
-I'm looking for opportunities to learn and grow as a junior data analyst.
+Understood data structure
 
-**Let's connect!**
-*   [My LinkedIn Profile](https://www.linkedin.com/in/seema-kumari-375763308/)
-*   [My GitHub Profile](https://github.com/Seema1200)
+Checked for missing or duplicate values
 
----
+Counted products by category
 
-*Note: This is a portfolio project. I used a simulated dataset to practice my skills and is not affiliated with the actual Zepto company.*
+Data Cleaning
 
+Removed products with invalid MRP (₹0)
+
+Converted prices from paise to rupees
+
+Handled NULLs and duplicate entries
+
+Analysis with SQL Queries
+
+Top 10 best-value products (highest discounts)
+
+Products with high MRP but out of stock
+
+Revenue estimation by category
+
+Categories with highest average discount
+
+Price per gram comparison for products >100g
+
+Weight categorization (Low / Medium / Bulk)
+
+Total inventory weight by category
+
+📁 Main SQL Script:
+zepto_analysis.sql
+
+📊 Key Insights
+
+🛒 Discount Patterns:
+Fruits & Vegetables and Meats, Fish & Eggs get higher discounts due to perishability, while premium essentials maintain low discounts to protect margins.
+
+💰 Revenue Trends:
+Cooking Essentials, Munchies, and Personal Care bring in the highest estimated revenue, while fresh items contribute the least.
+
+⚖️ Inventory Weight:
+Cooking Essentials and Munchies dominate total inventory weight, while Meats, Fish & Eggs are lightest — important for storage planning.
+
+⚡ Best Value:
+Staple items like salt and onions have the lowest price per gram, making them the most cost-effective for customers.
+
+📦 Weight Categorization:
+Most products are light (<1000g), making them easier and faster to deliver.
+
+💡 What I Learned
+
+Writing SQL queries (SELECT, WHERE, GROUP BY, ORDER BY, CASE, JOIN)
+
+Cleaning and preparing real-world-like data
+
+Performing basic data analysis using SUM, AVG, COUNT
+
+Thinking like an analyst — not just querying, but asking impactful business questions
+
+👩‍💻 About Me
+
+Hi, I’m Seema Kumari — an aspiring Data Analyst who loves solving puzzles and discovering stories hidden in data.
+I’m looking for opportunities to learn and grow as a junior data analyst.
+
+📧 Email: seemakri136@gmail.com
+
+💼 LinkedIn: linkedin.com/in/seema-kumari-375763308
+
+💻 GitHub: github.com/Seema1200
+
+✨ Thank you for checking out my project!
+I hope it shows my excitement for learning and my potential to contribute as a data analyst.
