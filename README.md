@@ -31,7 +31,7 @@ weightInGms, outOfStock
 
 [📁 View Zepto_Business_Insights.pdf](https://github.com/Seema1200/Zepto-SQL-Data-Analysis/blob/main/Zepto_Business_Insights.pdf)
 
-[📄 View zepto_analysis.sql](https://github.com/Seema1200/YourRepoName/blob/main/zepto_analysis.sql)
+[📄 View zepto_analysis.sql](https://github.com/Seema1200/Zepto-SQL-Data-Analysis/blob/main/zepto_analysis.sql)
 
 ⚙️ Steps I Followed
 🗄️ 1. Data Setup
@@ -69,7 +69,7 @@ Grouped products by weight (Low/Medium/Bulk)
 Calculated total inventory weight by category
 
 📁 **Main SQL Script:**  
-[📄 View zepto_analysis.sql](zepto_analysis.sql)
+[📄 View zepto_analysis.sql](https://github.com/Seema1200/Zepto-SQL-Data-Analysis/blob/main/zepto_analysis.sql)
 
 📊 Key Insights
 
