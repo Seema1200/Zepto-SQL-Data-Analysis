@@ -29,7 +29,7 @@ sku_id, category, name, mrp, quantity,
 discountPercent, availableQuantity, discountedSellingPrice,
 weightInGms, outOfStock
 
-[📁 View Zepto_Business_Insights.pdf](https://github.com/Seema1200/YourRepoName/blob/main/Zepto_Business_Insights.pdf)
+[📁 View Zepto_Business_Insights.pdf](https://github.com/Seema1200/Zepto-SQL-Data-Analysis/blob/main/Zepto_Business_Insights.pdf)
 
 [📄 View zepto_analysis.sql](https://github.com/Seema1200/YourRepoName/blob/main/zepto_analysis.sql)
 
@@ -101,7 +101,7 @@ Thinking like an analyst — asking impactful business questions and presenting 
 | File                                                           | Description                         |
 | -------------------------------------------------------------- | ----------------------------------- |
 | [`zepto_analysis.sql`](./zepto_analysis.sql)                   | Main SQL script with all queries    |
-| [`Zepto_Business_Insights.pdf`](./Zepto_Business_Insights.pdf) | Visual presentation of all insights |
+| [`Zepto_Business_Insights.pdf`](https://github.com/Seema1200/Zepto-SQL-Data-Analysis/blob/main/Zepto_Business_Insights.pdf) | Visual presentation of all insights |
 
 
 ## 👩‍💻 About Me
