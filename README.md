@@ -2,9 +2,6 @@
 
 
 
-
-
-
 📋 Table of Contents
 
 📖 About the Project
@@ -32,8 +29,9 @@ sku_id, category, name, mrp, quantity,
 discountPercent, availableQuantity, discountedSellingPrice,
 weightInGms, outOfStock
 
-📄 Project Presentation:
-📁 View Zepto_Business_Insights.pdf
+[📁 View Zepto_Business_Insights.pdf](https://github.com/Seema1200/YourRepoName/blob/main/Zepto_Business_Insights.pdf)
+
+[📄 View zepto_analysis.sql](https://github.com/Seema1200/YourRepoName/blob/main/zepto_analysis.sql)
 
 ⚙️ Steps I Followed
 🗄️ 1. Data Setup
@@ -70,8 +68,8 @@ Grouped products by weight (Low/Medium/Bulk)
 
 Calculated total inventory weight by category
 
-📁 Main SQL Script:
-📄 View zepto_analysis.sql
+📁 **Main SQL Script:**  
+[📄 View zepto_analysis.sql](zepto_analysis.sql)
 
 📊 Key Insights
 
@@ -100,22 +98,27 @@ Performing basic data analysis using SUM, AVG, COUNT
 
 Thinking like an analyst — asking impactful business questions and presenting answers visually
 
-📁 Files in This Repo
-File	Description
-zepto_analysis.sql
-	Main SQL script with all queries
-Zepto_Business_Insights.pdf
-	Visual presentation of all insights
-👩‍💻 About Me
+| File                                                           | Description                         |
+| -------------------------------------------------------------- | ----------------------------------- |
+| [`zepto_analysis.sql`](./zepto_analysis.sql)                   | Main SQL script with all queries    |
+| [`Zepto_Business_Insights.pdf`](./Zepto_Business_Insights.pdf) | Visual presentation of all insights |
 
-Hi, I’m Seema Kumari — an aspiring Data Analyst who loves solving puzzles and discovering stories hidden in data.
-I’m looking for opportunities to learn, grow, and contribute as a junior data analyst.
 
-📧 Email: seemakri136@gmail.com
+## 👩‍💻 About Me
 
-💼 LinkedIn: linkedin.com/in/seema-kumari-375763308
+Hi, I’m **Seema Kumari** — an aspiring **Data Analyst** who loves solving puzzles and discovering stories hidden in data.  
+I’m looking for opportunities to **learn, grow, and contribute** as a junior data analyst.
 
-💻 GitHub: github.com/Seema1200
+## 👩‍💻 About Me
+
+Hi, I’m **Seema Kumari** — an aspiring **Data Analyst** who loves solving puzzles and discovering stories hidden in data.  
+I’m looking for opportunities to **learn, grow, and contribute** as a junior data analyst.
+
+[![Email](https://img.shields.io/badge/Email-seemakri136%40gmail.com-red?logo=gmail&logoColor=white)](mailto:seemakri136@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Seema%20Kumari-blue?logo=linkedin)](https://www.linkedin.com/in/seema-kumari-375763308/)
+[![GitHub](https://img.shields.io/badge/GitHub-Seema1200-black?logo=github)](https://github.com/Seema1200)
+
+
 
 ✨ Thank you for checking out my project!
 I hope it shows my excitement for learning and my potential to contribute as a data analyst.
